@@ -12,7 +12,10 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 4. [Frontend Components](#frontend-components)  
 5. [API Endpoints](#api-endpoints)  
 6. [Setup & Installation](#setup--installation)  
-7. [Interview Workflow](#interview-workflow)  
+7. [Interview Workflow](#interview-workflow)
+8. [Design Decisions](#design-decisions)
+9. [Error Handling & Edge Cases](#error-handling--edge-cases)
+10. [Video Demo](#video-demo)
 
 ---
 
@@ -105,6 +108,12 @@ venv\Scripts\activate     # Windows
 ```
 pip install -r requirements.txt
 ```
+4. Create a .env file
+
+Inside the backend folder, create a file named .env and add your API key:
+```
+GOOGLE_API_KEY=your_api_key_here
+```
 5. Run the server:
 
 ```
@@ -135,7 +144,7 @@ npm run dev
 ```
 Frontend will start on the URL shown in the console, usually http://localhost:5173.
 
-### Interview Workflow
+## Interview Workflow
 
 1. **Start**
    - Run backend & frontend.
@@ -173,6 +182,104 @@ Frontend will start on the URL shown in the console, usually http://localhost:51
 
 8. **End Session**
    - Clears memory & returns to home page.
+  
+## Design Decisions
+
+This section explains the reasoning behind the major technology and architecture choices in the AI Interview Practice Partner.
+
+### 1. FAISS instead of Chroma
+I initially attempted to use ChromaDB, but the LangChain ecosystem had compatibility and version conflicts, especially with `langchain-google-genai==2.0.10`.  
+To avoid these issues, I switched to **FAISS**, which is lightweight, stable, and fast for local similarity search.
+
+---
+
+### 2. Whisper for Speech-to-Text (STT)
+Whisper was chosen because:
+
+- It can run **locally**.
+- It is lightweight enough for this project.
+- It provides strong accuracy compared to browser STT APIs.
+- No external API dependency.
+
+---
+
+### 3. Edge-TTS instead of gTTS or ElevenLabs
+I originally wanted a fully local TTS solution, but local models require significant memory.  
+**Edge-TTS** was chosen because:
+
+- It works using the cloud without high resource usage.
+- It provides better quality than gTTS.
+- It is free, unlike ElevenLabs.
+
+---
+
+### 4. RAG instead of a normal LLM chat
+A plain Gemini API chat would only give generic interview questions.  
+RAG was used to ensure:
+
+- Role-specific, grounded interview questions.
+- Consistent domain knowledge throughout the conversation.
+- Ability to generate meaningful follow-up questions.
+
+I created a custom knowledge base, applied text splitting, created embeddings, and retrieved context based on cosine similarity.
+
+---
+
+### 5. Compression Retriever
+A compression retriever was used to:
+
+- Remove irrelevant information from retrieved chunks.
+- Reduce prompt noise.
+- Improve accuracy and relevance of responses.
+
+---
+
+### 6. Conversation Buffer Memory
+Conversation buffer memory helps maintain:
+
+- Short-term dialogue history.
+- Context for follow-up questions.
+- Coherent responses combining retrieved knowledge + user history +job role.
+
+---
+
+### 7. Model Choice: Gemini + Local Ollama
+Both Gemini and Ollama integrations were implemented.  
+Gemini was selected as the default because:
+
+- Faster responses.
+- More reliable for structured, interviewer-style text.
+
+---
+
+### 8. Streamlit Prototype → React Final Build
+The project began as a **Streamlit prototype** to quickly test:
+
+- RAG pipeline flow
+- Whisper STT integration
+- TTS pipeline
+- Interview question/answer logic
+
+After validating the concept, it was migrated to **React (Vite)** to provide:
+
+- A significantly better chat experience
+- Cleaner, scalable UI/UX
+- Component-level control
+- Flexibility for future feature expansion
+
+## Error Handling & Edge Cases
+
+This agent includes robust error-handling for realistic user behavior:
+
+- **Confused or off-topic user** → system gently redirects to the question.
+- **User skips a question** → interviewer explains briefly and moves to the next.
+- **No relevant documents retrieved** → fallback to generic role-based question set.
+- **PDF upload failure** → client displays an error and prevents a crash.
+- **User ends interview early** → validation enforces a minimum of 4 answered questions.
+- **End session** → memory is cleared immediately and the user is returned to the homepage.
+
+## Video Demo
+https://www.youtube.com/watch?v=zq5oLkbPUy4
 
 ## License
 
