@@ -89,27 +89,27 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 ## Tech Stack
 
 ### **Backend**
-- **FastAPI** — API framework  
-- **Uvicorn** — ASGI server  
-- **LangChain 0.3.x** — RAG pipeline, retrievers, memory  
-- **Google Gemini (via langchain-google-genai)** — LLM for interview questions & analysis  
-- **FAISS (CPU)** — Vector store for document retrieval  
-- **Sentence Transformers** — Embedding generation  
-- **Whisper (Local)** — Speech-to-Text  
-- **Edge-TTS** — Text-to-Speech  
-- **PyPDF2** — PDF parsing for resumes  
-- **dotenv** — Environment variable management  
-- **Pydub, asyncio, aiofiles, httpx** — Audio & async utils
+- **FastAPI** : API framework  
+- **Uvicorn** : ASGI server  
+- **LangChain 0.3.x** : RAG pipeline, retrievers, memory  
+- **Google Gemini (via langchain-google-genai)** : LLM for interview questions & analysis  
+- **FAISS (CPU)** : Vector store for document retrieval  
+- **Sentence Transformers** : Embedding generation  
+- **Whisper (Local)** : Speech-to-Text  
+- **Edge-TTS** : Text-to-Speech  
+- **PyPDF2** : PDF parsing for resumes  
+- **dotenv** : Environment variable management  
+- **Pydub, asyncio, aiofiles, httpx** : Audio & async utils
 
-### **Frontend **
-- **React (Vite)** — UI framework  
-- **Axios** — API calls  
-- **react-audio-recorder / react-media-recorder** — Microphone recording  
-- **react-markdown + remark-gfm** — Render markdown output  
-- **lucide-react** — Icons
+### **Frontend**
+- **React (Vite)** : UI framework  
+- **Axios** : API calls  
+- **react-audio-recorder / react-media-recorder** : Microphone recording  
+- **react-markdown + remark-gfm** : Render markdown output  
+- **lucide-react** : Icons
 
 ### **Local Optional**
-- **Ollama** — For local LLM support (fallback)
+- **Ollama** : For local LLM support (fallback)
 ---
 
 ## Setup & Installation
