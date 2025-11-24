@@ -48,12 +48,14 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 | Component | Description |
 |-----------|-------------|
 | **FastAPI Server** (`server.py`) | Handles API requests and routing |
-| **Vector Embeddings** (`embedding.py`) | Converts documents to vectors, stores in FAISS |
+| **Vector Embeddings** (`embedding.py`) | Converts documents to vectors, stores in FAISS|
+| **Base Retriever** | `load_vectorstore()` loads embeddings and returns a base retriever for similarity search|
+| **Retriever** |`create_compression_retriever()` takes base retriever to filter irrelevant information and returns the final retriever|
 | **RAG Pipeline** (`rag_pipeline.py`) | Handles retrieval and conversational AI responses |
 | **Conversation Memory** (`ConversationBufferMemory`) | Maintains chat history for context-aware answers |
-| **Audio Processing** (`pydub`) | Speech-to-Text (STT) & Text-to-Speech (TTS) |
+| **Audio Processing** (`pydub`) | Speech-to-Text (STT) (`whisper`) & Text-to-Speech (TTS) (`edge tts`) |
 | **PDF Parsing** (`PyPDF2`) | Extracts text from PDFs for embeddings |
-| **LLM Integration** (`langchain_google_genai`) | Generates AI responses |
+| **LLM Integration** (`langchain_google_genai`) ,(`langchain_ollama`)| Generates AI responses |
 | **Feedback Generator** (`/end_interview`) | Evaluates candidate responses and provides structured feedback |
 
 ---
@@ -62,10 +64,10 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 
 - **Framework:** React + Vite  
 - **Key Features:**  
-  - Text input and voice recording  
-  - Playback of AI responses (TTS audio)  
-  - Conversation UI with multi-turn history  
-  - Role selection or PDF upload for job-specific interviews  
+  - Mode selction for voice and text
+  - Pdf Upload option 
+  - Role selection for job-specific interviews
+  - User Response counter 
 
 ---
 
@@ -90,8 +92,8 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/agentic-ai-interviewer.git
-cd agentic-ai-interviewer
+git clone https://github.com/Caspian4/Interview-Practice-Partner.git
+cd backend
 ```
 2. Create a virtual environment:
 
@@ -118,6 +120,7 @@ Server will start on http://localhost:8000.
 
 ```
 cd frontend
+cd eightfold
 ```
 2. nstall dependencies:
 
