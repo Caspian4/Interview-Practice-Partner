@@ -12,9 +12,7 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 4. [Frontend Components](#frontend-components)  
 5. [API Endpoints](#api-endpoints)  
 6. [Setup & Installation](#setup--installation)  
-7. [Usage](#usage)  
-8. [Best Practices](#best-practices)  
-9. [License](#license)  
+7. [Interview Workflow](#interview-workflow)  
 
 ---
 
@@ -175,8 +173,4 @@ Frontend will start on the URL shown in the console, usually http://localhost:51
 
 This project is licensed under the **MIT License** © 2025 Ayushi Adhikari.
 
-
-
-
-**High-Level Pipeline:**
 
