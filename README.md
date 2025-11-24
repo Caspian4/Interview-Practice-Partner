@@ -10,12 +10,13 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 2. [Architecture](#architecture)  
 3. [Backend Components](#backend-components)  
 4. [Frontend Components](#frontend-components)  
-5. [API Endpoints](#api-endpoints)  
-6. [Setup & Installation](#setup--installation)  
-7. [Interview Workflow](#interview-workflow)
-8. [Design Decisions](#design-decisions)
-9. [Error Handling & Edge Cases](#error-handling--edge-cases)
-10. [Video Demo](#video-demo)
+5. [API Endpoints](#api-endpoints)
+6. [Tech Stack](#tech-stack)
+7. [Setup & Installation](#setup--installation)  
+8. [Interview Workflow](#interview-workflow)
+9. [Design Decisions](#design-decisions)
+10. [Error Handling & Edge Cases](#error-handling--edge-cases)
+11. [Video Demo](#video-demo)
 
 ---
 
@@ -85,6 +86,31 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 | `/end_interview` | POST | Generates feedback from conversation + job role |
 
 ---
+## Tech Stack
+
+### **Backend**
+- **FastAPI** — API framework  
+- **Uvicorn** — ASGI server  
+- **LangChain 0.3.x** — RAG pipeline, retrievers, memory  
+- **Google Gemini (via langchain-google-genai)** — LLM for interview questions & analysis  
+- **FAISS (CPU)** — Vector store for document retrieval  
+- **Sentence Transformers** — Embedding generation  
+- **Whisper (Local)** — Speech-to-Text  
+- **Edge-TTS** — Text-to-Speech  
+- **PyPDF2** — PDF parsing for resumes  
+- **dotenv** — Environment variable management  
+- **Pydub, asyncio, aiofiles, httpx** — Audio & async utils
+
+### **Frontend **
+- **React (Vite)** — UI framework  
+- **Axios** — API calls  
+- **react-audio-recorder / react-media-recorder** — Microphone recording  
+- **react-markdown + remark-gfm** — Render markdown output  
+- **lucide-react** — Icons
+
+### **Local Optional**
+- **Ollama** — For local LLM support (fallback)
+---
 
 ## Setup & Installation
 
@@ -134,7 +160,6 @@ cd eightfold
 ```
 npm install
 ```
-
 ⚠️ Note: This generates a package-lock.json file. Commit it to your repository to lock package versions and ensure consistency across environments.
 
 3. Run the development server:
@@ -144,6 +169,31 @@ npm run dev
 ```
 Frontend will start on the URL shown in the console, usually http://localhost:5173.
 
+### FFmpeg Setup (Required for Whisper STT)
+
+Whisper requires FFmpeg to handle audio input. Install it using one of the following methods:
+
+#### Windows (Add to System PATH)
+1. Download FFmpeg:  
+   https://www.gyan.dev/ffmpeg/builds/
+2. Extract the folder and place it in:  
+   `C:\ffmpeg`
+3. Add the following to your system PATH:  
+   `C:\ffmpeg\bin`
+4. Restart the terminal and verify installation:
+ `ffmpeg -version`
+
+#### Windows (Alternative: Add FFmpeg only inside the virtual environment)
+If you prefer not to modify the system PATH:
+1. Open your venv activation script:  
+`backend/venv/Scripts/Activate.ps1`
+2. Add this line at the end of the file:
+`$env:PATH += ";C:\ffmpeg\bin"`
+3. Reactivate the environment:
+`venv\Scripts\activate`
+`ffmpeg-version`
+
+---
 ## Interview Workflow
 
 1. **Start**
@@ -182,7 +232,8 @@ Frontend will start on the URL shown in the console, usually http://localhost:51
 
 8. **End Session**
    - Clears memory & returns to home page.
-  
+
+---
 ## Design Decisions
 
 This section explains the reasoning behind the major technology and architecture choices in the AI Interview Practice Partner.
