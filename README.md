@@ -160,11 +160,16 @@ Frontend will start on the URL shown in the console, usually http://localhost:51
 
 6. **Controls**
    - Side panel: **End Interview** / **End Session**.  
- <img src="https://github.com/user-attachments/assets/399dc906-797c-47c4-bdad-478a79ce5ac3" alt="Step 6" width="200"/>
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/399dc906-797c-47c4-bdad-478a79ce5ac3" alt="Step 6" width="200"/>
+ </p>
 
 7. **Feedback**
    - Generated after at least **4 answers**.  
-   ![Step 7](https://github.com/user-attachments/assets/54121491-70c9-4eb3-acfb-95134cdb7d40)
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/54121491-70c9-4eb3-acfb-95134cdb7d40" alt="Step 7" width="500"/>
+  <img src="https://github.com/user-attachments/assets/38bd198e-0393-400d-a28d-1b0c1ca18213" alt="Step 8" width="500"/>
+</div>
 
 8. **End Session**
    - Clears memory & returns to home page.
