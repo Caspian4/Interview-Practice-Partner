@@ -62,7 +62,7 @@ A **Retrieval-Augmented Generation (RAG)**–based AI Interviewer built with **F
 
 - **Framework:** React + Vite  
 - **Key Features:**  
-  - Mode selction for voice and text
+  - Mode selection for voice and text
   - Pdf Upload option 
   - Role selection for job-specific interviews
   - User Response counter 
@@ -120,7 +120,7 @@ Server will start on http://localhost:8000.
 cd frontend
 cd eightfold
 ```
-2. nstall dependencies:
+2. Install dependencies:
 
 ```
 npm install
