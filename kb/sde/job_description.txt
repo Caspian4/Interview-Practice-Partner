@@ -1,0 +1,91 @@
+Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or JScript.NET.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.
+
+Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.
+
+Responsibilities
+
+Execute full software development life cycle (SDLC)
+Develop flowcharts, layouts and documentation to identify requirements and solutions
+Write well-designed, testable code
+Produce specifications and determine operational feasibility
+Integrate software components into a fully functional software system
+Develop software verification plans and quality assurance procedures
+Document and maintain software functionality
+Troubleshoot, debug and upgrade existing systems
+Deploy programs and evaluate user feedback
+Comply with project plans and industry standards
+Ensure software is updated with latest features
+
+Requirements and skills
+Proven work experience as a Software Engineer or Software Developer
+Experience designing interactive applications
+Ability to develop software in Java, Ruby on Rails, C++ or other programming languages
+Excellent knowledge of relational databases, SQL and ORM technologies (JPA2, Hibernate)
+Experience developing web applications using at least one popular web framework (JSF, Wicket, GWT, Spring MVC)
+Experience with test-driven development
+Proficiency in software engineering tools
+Ability to document requirements and specifications
+B.Tech degree in Computer Science, Engineering or relevant field
+
+2. The typical responsibilities of a software developer include:
+
+Analyzing user needs: Developers collaborate with business and systems analysts to understand software requirements and user needs.
+Designing applications: They design the architecture and write the technical specifications for software applications as per requirements.
+Writing code: Writing well-designed, testable and efficient code is the core job of a software developer. They code applications or systems using programming languages.
+Testing software: Developers rigorously test software to identify and fix bugs or defects before release. Unit testing and integration testing are commonly done.
+Deploying software: They collaborate with IT teams to deploy the software across platforms and systems. Post release monitoring is done.
+Maintaining software: Developers also maintain the code, fix issues and update the software as per latest requirements. Released code may require optimization over time.
+Documentation: Throughout the SDLC process, developers create documentation of the design, architecture, code, requirements etc.
+
+Software Developer to build and implement functional programs. You will work with other Developers and Product Managers throughout the software development life cycle.
+
+In this role, you should be a team player with a keen eye for detail and problem-solving skills. If you also have experience in Agile frameworks and popular coding languages (e.g. JavaScript), we’d like to meet you.
+
+Your goal will be to build efficient programs and systems that serve user needs.
+
+Responsibilities
+Work with developers to design algorithms and flowcharts
+Produce clean, efficient code based on specifications
+Integrate software components and third-party programs
+Verify and deploy programs and systems
+Troubleshoot, debug and upgrade existing software
+Gather and evaluate user feedback
+Recommend and execute improvements
+Create technical documentation for reference and reporting
+Requirements and skills
+Proven experience as a Software Developer, Software Engineer or similar role
+Familiarity with Agile development methodologies
+Experience with software design and development in a test-driven environment
+Knowledge of coding languages (e.g. C++, Java, JavaScript) and frameworks/systems (e.g. AngularJS, Git)
+Experience with databases and Object-Relational Mapping (ORM) frameworks (e.g. Hibernate)
+Ability to learn new languages and technologies
+Excellent communication skills
+Resourcefulness and troubleshooting aptitude
+Attention to detail
+B.Tech in Computer Science, Engineering or a related field
+
+ for a Software Engineer to join our growing Engineering team and build out the next generation of our platform. The ideal candidate is a hands-on platform builder with significant experience in developing scalable data platforms. We’re looking for someone with experience in business intelligence, analytics, data science and data products. They must have strong, firsthand technical expertise in a variety of configuration management and big data technologies and the proven ability to fashion robust scalable solutions that can manage large data sets. They must be at ease working in an agile environment with little supervision. This person should embody a passion for continuous improvement and test-driven development.
+
+Responsibilities for Software Engineer
+Analyze, design and develop tests and test-automation suites.
+Design and develop a processing platform using various configuration management technologies.
+Test software development methodology in an agile environment.
+Provide ongoing maintenance, support and enhancements in existing systems and platforms.
+Collaborate cross-functionally with data scientists, business users, project managers and other engineers to achieve elegant solutions.
+Provide recommendations for continuous improvement.
+Work alongside other engineers on the team to elevate technology and consistently apply best practices.
+Qualifications for Software Engineer
+Hands-on experience working with technologies like Hadoop, Hive, Pig, Oozie, Map Reduce, Spark, Sqoop, Kafka, Flume, etc.
+Strong DevOps focus and experience building and deploying infrastructure with cloud deployment technologies like ansible, chef, puppet, etc.
+Experience with test-driven development and automated testing frameworks.
+Experience with Scrum/Agile development methodologies.
+Capable of delivering on multiple competing priorities with little supervision.
+Excellent verbal and written communication skills.
+Bachelor’s Degree in computer science or equivalent experience.
+We’re looking for someone with 3-5 years of experience in B2B, has a BS degree in computer science or similar, and is familiar with the following software/tools:
+Experience with infrastructure automation technologies like Docker, Vagrant, etc.
+Experience with build automation technologies like Maven, Jenkins, etc.
+Experience with monitoring technologies like Nagios, Ganglia, etc.
+Experience with modern programming languages like Java, Python, etc.
+Experience with building APIs and services using REST, SOAP, etc.
+Experience with scripting languages like Perl, Shell, etc.

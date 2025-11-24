@@ -1,0 +1,33 @@
+# Core
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# LangChain & Google Gemini
+langchain==0.3.7
+langchain-core>=0.3.37,<0.4.0
+langchain-community==0.3.7
+langchain-google-genai==2.0.10
+google-generativeai==0.8.5
+python-dotenv>=1.0.0
+
+
+# FAISS + embeddings
+faiss-cpu
+sentence-transformers>=2.2.2
+
+# Chunks / utilities
+langchain-text-splitters>=0.3.0
+python-multipart>=0.0.6
+httpx>=0.25.0
+aiofiles>=23.2.1
+
+# Optional PDF parsing for resume uploads
+pdfplumber>=0.9.0
+PyPDF2
+# Other
+numpy>=1.26.0
+streamlit
+asyncio
+edge-tts
+sounddevice
+ollama

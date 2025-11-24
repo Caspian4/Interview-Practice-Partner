@@ -1,0 +1,58 @@
+Hard Skills – The Technical Foundation
+
+Core Technical Skills
+
+Programming Languages: Proficiency in relevant languages such as Python, Java, C++, JavaScript, and C# is fundamental.
+Data Structures and Algorithms (DSA): Understanding how to efficiently organize data and implement algorithms is crucial for writing optimized and scalable code.
+Version Control: Experience with version control systems, especially Git and platforms like GitHub, is essential for collaborative development and tracking code changes.
+Debugging and Testing: The ability to find, fix, and prevent errors using various debugging tools and testing frameworks (e.g., Jest, Pytest, Selenium) is a key skill.
+Databases and SQL: Working knowledge of database management systems, including both relational (SQL, MySQL, PostgreSQL) and non-relational (NoSQL, MongoDB) databases, is a core requirement.
+Software Development Life Cycle (SDLC) and Methodologies: Familiarity with the entire software development lifecycle and methodologies like Agile and Scrum is vital for managing projects and team collaboration. 
+
+Specialized and In-Demand Skills
+
+Cloud Computing: Knowledge of cloud platforms (AWS, Azure, Google Cloud) and related concepts like Infrastructure as Code (IaC) is highly sought after.
+Web Development Fundamentals: For many roles, skills in HTML, CSS, JavaScript, and associated frameworks (React, Angular, Node.js) are necessary.
+APIs and System Design: Understanding how to work with and build RESTful APIs and having knowledge of distributed systems and overall system design are important for building interconnected applications.
+DevOps and CI/CD: Familiarity with DevOps practices and tools like Docker, Kubernetes, and Jenkins for continuous integration and deployment can be a significant advantage.
+Artificial Intelligence and Machine Learning: As AI/ML algorithms become more prevalent, skills in algorithm development, data preprocessing, and relevant libraries are increasingly valuable.
+Secure Coding Practices: Knowledge of cybersecurity principles and the ability to implement secure coding practices (e.g., encryption, authentication) helps build robust and safe software.
+Operating Systems and Networking Basics: A fundamental understanding of operating systems (like Linux) and computer networking basics is important for developing and supporting applications in client-server models.
+Technical Writing: The ability to create clear and concise technical documentation is necessary to describe software functions and usage for other developers and end-users. 
+
+
+Soft Skills – The Unsung Heroes of Development
+These are the skills that allow you to work well with others, solve problems creatively, and keep projects moving forward.
+
+Problem-Solving Mindset: Much of software development is about breaking down complex issues and creating clean, effective solutions. Curiosity and patience go a long way here!
+
+Attention to Detail: A single typo can break an entire application. Strong attention to detail is essential, especially when you’re debugging or reviewing code.
+
+Adaptability: Tech is constantly changing, and every project has unique challenges. Adapting to new languages, frameworks, and tools keeps your skills sharp and makes you a valuable team member.
+
+Communication: Many developers work on teams, so you’ll need to explain your ideas, challenges, and solutions clearly. This includes documentation skills, well-documented code and processes make life easier for everyone.
+
+Collaboration: You’ll often work with designers, product managers, and other developers. Learning how to listen, give feedback, and work as a team is key to creating a successful product.
+
+Time Management: Between coding, testing, meetings, and more, managing your time is crucial. It helps you meet deadlines and manage workloads, which ultimately reduces stress and increases productivity.
+
+Growth Mindset: Tech is all about learning and iterating. Embracing a growth mindset means you see challenges as learning opportunities, which is invaluable when you hit a coding roadblock.
+
+Empathy	Creativity
+Persuasion	Collaboration
+Adaptability	Emotional intelligence
+Communication	Listening
+Punctuality	Organization
+Teamwork	Ability to “read a room”
+Flexibility	Patience
+Time management	Multitasking
+Attention to detail	Responsibility
+Strategic thinking	Problem solving
+Good decision making	Conflict resolution
+Innovation	Social skills
+Cultural awareness	Sensitivity
+Leadership	Mentoring
+Networking	Negotiation
+Positive attitude	Open-mindedness
+Work ethic	Critical thinking
+Customer service

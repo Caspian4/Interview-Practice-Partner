@@ -1,0 +1,405 @@
+A. General Software Engineering Interview Questions
+Question: What is software engineering?
+Answer:
+
+Software engineering is a systematic approach to the development, operation, and maintenance of software. It combines principles from engineering and computer science to ensure that software is reliable, scalable, and maintainable. It involves processes like requirements analysis, design, coding, testing, and maintenance. The goal is to manage complexity and deliver high-quality software within time, cost, and resource constraints.
+
+Follow-up Questions:
+
+Why is software engineering needed in modern development?
+
+How does software engineering differ from traditional programming?
+
+What are some challenges faced in large software engineering projects?
+
+Question: What are the key phases of the Software Development Life Cycle (SDLC)?
+Answer:
+
+The key phases include:
+Requirement Gathering → Design → Implementation → Testing → Deployment → Maintenance.
+Each phase ensures the product is reliable and aligned with user needs.
+
+Follow-up Questions:
+
+Which SDLC model have you worked with?
+
+How do Agile and Waterfall handle SDLC phases differently?
+
+Which SDLC phase do you personally find most challenging and why?
+
+Question: What is a framework in software development?
+Answer:
+
+A software framework provides prebuilt components, libraries, and best practices that simplify development. Examples: Django, React, Spring. Frameworks reduce repetitive code and enforce structure.
+
+Follow-up Questions:
+
+How is a framework different from a library?
+
+What are the pros and cons of using frameworks?
+
+Which framework do you prefer and why?
+
+B. Programming Languages and Concepts
+Question: What programming languages are you proficient in?
+Answer:
+
+Example answer listing proficiency in JS, Python, Java, etc. Preferences vary based on project (web, ML, enterprise).
+
+Follow-up Questions:
+
+Which language do you struggle with the most and why?
+
+Have you used strongly typed languages?
+
+How do you choose the right language for a project?
+
+Question: What is Object-Oriented Programming (OOP)?
+Answer:
+
+OOP uses objects with data + methods. Four principles: Encapsulation, Abstraction, Inheritance, Polymorphism.
+
+Follow-up Questions:
+
+Can you give an example of abstraction in a real project?
+
+What are some disadvantages of OOP?
+
+How is OOP different from functional programming?
+
+Question: Differences between statically and dynamically typed languages?
+Answer:
+
+Static → Types fixed at compile time.
+Dynamic → Types resolved at runtime.
+
+Follow-up Questions:
+
+Which typing style do you prefer?
+
+How do type systems affect debugging?
+
+Name languages that use gradual typing.
+
+C. Software Design and Architecture
+Question: Difference between monolithic and microservices architecture?
+Answer:
+
+Monolithic = single, tightly-coupled system.
+Microservices = smaller, independent services with APIs.
+
+Follow-up Questions:
+
+What challenges come with microservices?
+
+How do you manage API versioning?
+
+When would you choose monolithic over microservices?
+
+Question: What is concurrency vs parallelism?
+Answer:
+
+Concurrency = managing multiple tasks at once (not necessarily simultaneous).
+Parallelism = actual simultaneous execution using multiple CPUs.
+
+Follow-up Questions:
+
+Give an example where concurrency is preferred.
+
+What issues arise in concurrent systems?
+
+How do you handle race conditions?
+
+Question: How do you handle scaling a web application?
+Answer:
+
+Vertical scaling, horizontal scaling, load balancers, caching, sharding, CDNs, asynchronous queues.
+
+Follow-up Questions:
+
+Share a time when you scaled a system.
+
+What tools do you use for monitoring?
+
+What are some database bottlenecks you’ve solved?
+
+Question: What are RESTful APIs and how do they work?
+RESTful APIs (Representational State Transfer):
+RESTful APIs are architectural style APIs that use HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on resources.
+They are based on a client-server model, where clients initiate requests (HTTP methods like GET, POST, PUT, DELETE) to interact with resources hosted on a server.
+
+Follow-up Questions:
+
+How is REST different from GraphQL?
+
+What are HTTP idempotent methods?
+
+What is stateless communication?
+
+Question: What is polymorphism?
+Polymorphism: Polymorphism refers to the ability of objects to take on multiple forms or exhibit different behaviors depending on their context or the messages they receive. It allows objects of different classes to be treated uniformly through a common interface.
+Implementation: Polymorphism can be implemented in programming languages through method overriding and method overloading.
+Method Overriding: In method overriding, a subclass provides a specific implementation of a method that is already defined in its superclass. This allows objects of the subclass to invoke the overridden method through a common interface.
+Method Overloading: In method overloading, multiple methods with the same name but different parameter lists are defined within a class. The appropriate method is selected based on the number and types of arguments passed to it, enabling the same method name to be used for different behaviors.
+
+Follow-up Questions:
+
+What is the difference between overriding and overloading?
+
+Can constructors be overloaded?
+
+Give an example of runtime polymorphism.
+
+Question: What is inheritance and why is it useful?
+Inheritance: Inheritance is a mechanism in object-oriented programming that allows a class (subclass) to inherit attributes and methods from another class (superclass). The subclass can extend or modify the behavior of the superclass while inheriting its common characteristics.
+Benefits:
+Code Reuse, Modularity
+
+Follow-up Questions:
+
+When should inheritance NOT be used?
+
+What is composition vs inheritance?
+
+Provide an example of an inheritance hierarchy.
+
+Question: Abstract class vs interface?
+
+Abstract Class: An abstract class is a class that cannot be instantiated directly and may contain abstract methods (methods without implementation). It serves as a blueprint for subclasses to inherit attributes and methods while providing common behavior. Subclasses must implement abstract methods to become concrete classes.
+Interface: An interface is a contract that defines a set of method signatures without specifying their implementations. It defines a protocol for communication between classes by declaring the methods they must implement. Unlike abstract classes, interfaces cannot contain concrete methods or instance variables.
+
+Follow-up Questions:
+
+When would you choose an interface over an abstract class?
+
+Can a class implement multiple interfaces?
+
+Explain default methods in interfaces.
+
+D. Algorithms and Data Structures
+Question: Difference between array and linked list?
+Follow-up Questions:
+
+When would you NOT use a linked list?
+
+What is a doubly linked list used for?
+
+How do arrays help CPU cache performance?
+
+Question: Explain a Binary Search Tree (BST).
+Follow-up Questions:
+
+What is tree balancing?
+
+Difference between BST and Heap?
+
+What happens when the tree becomes skewed?
+
+E. Software Development Methodologies
+Question: What is Agile and why is it popular?
+Follow-up Questions:
+
+Which Agile ceremonies have you participated in?
+
+What is the role of a Scrum Master?
+
+What challenges have you seen in Agile teams?
+
+Question: Difference between Agile and Waterfall?
+Follow-up Questions:
+
+Give an example of a project suited for Waterfall.
+
+Why do some companies still use Waterfall?
+
+What problems arise when switching from Waterfall to Agile?
+
+F. Databases
+Question: What is normalization?
+Follow-up Questions:
+
+What are the normal forms?
+
+What is denormalization?
+
+When is normalization harmful?
+
+Question: What is the difference between SQL and NoSQL?
+Follow-up Questions:
+
+Have you used document databases?
+
+What is CAP theorem?
+
+When would you migrate from SQL to NoSQL?
+
+G. Software Testing
+Question: What is unit testing?
+Follow-up Questions:
+
+What tools do you use for unit testing?
+
+What is mocking?
+
+What is TDD?
+
+Question: What is Continuous Integration (CI)?
+Follow-up Questions:
+
+What is the difference between CI and CD?
+
+What CI tools have you used?
+
+What issues does CI catch early?
+
+H. System Design
+Question: What is microservices architecture?
+Follow-up Questions:
+
+How do microservices communicate?
+
+What is service discovery?
+
+How do you handle inter-service failures?
+
+Question: How would you design a system for high traffic?
+Follow-up Questions:
+
+What is horizontal partitioning?
+
+What is caching invalidation?
+
+How do you scale databases?
+
+I. Debugging & Problem Solving
+Question: How do you debug production issues under pressure?
+Follow-up Questions:
+
+What debugging tools do you use?
+
+How do you communicate during outages?
+
+Share an incident post-mortem example.
+
+Question: Example of improving performance?
+Follow-up Questions:
+
+What metrics do you track for performance?
+
+How do you approach profiling?
+
+What caching strategies have you used?
+
+J. Programming Concepts
+Question: Multithreading vs multiprocessing?
+Follow-up Questions:
+
+What is a race condition?
+
+What is a deadlock?
+
+How do you synchronize threads?
+
+Question: What are design patterns?
+Follow-up Questions:
+
+Give an example of a creational pattern.
+
+What is dependency injection?
+
+Which design pattern do you dislike and why?
+
+K. Code & Best Practices
+Question: How do you ensure maintainability?
+Follow-up Questions:
+
+How do you handle technical debt?
+
+What is clean code to you?
+
+How often should refactoring happen?
+
+Question: What is version control?
+Follow-up Questions:
+
+What is Git branching strategy?
+
+What is a merge conflict?
+
+Explain rebase vs merge.
+
+L. Security
+Question: What is SQL injection and how to prevent it?
+Follow-up Questions:
+
+What are parameterized queries?
+
+What is XSS?
+
+What security practices do you follow?
+
+M. Cloud & DevOps
+Question: What is Continuous Integration?
+Follow-up Questions:
+
+Explain CI/CD pipeline.
+
+What is IaC?
+
+What happens if tests fail in CI?
+
+Question: How do you deploy in the cloud?
+Follow-up Questions:
+
+What is auto-scaling?
+
+What are cloud regions and zones?
+
+How do you secure cloud deployments?
+
+N. Soft Skills
+Question: Describe working in a cross-functional team.
+In one of my previous projects, I worked closely with the marketing and design teams to build a customer-facing web portal. The marketing team provided insights into customer behavior and user personas, while the design team focused on creating an intuitive user interface. 
+
+My role as a software developer was to translate their inputs into a functional and scalable system. We used Agile methodologies, and regular communication was key. Through daily stand-ups and feedback loops, we aligned on priorities and successfully launched the portal ahead of schedule, with positive user feedback.
+
+
+Follow-up Questions:
+
+What conflicts did you face?
+
+How did you handle miscommunication?
+
+What did you learn from the team?
+
+Question: How do you prioritize tasks?
+When I have multiple deadlines, I first assess the urgency and importance of each task. I use tools like the Eisenhower Matrix to categorize tasks based on their impact and time sensitivity. I break larger tasks into smaller, manageable chunks and set milestones for each. 
+
+By communicating with stakeholders, I ensure that I’m aligned with the project’s priorities. I also make use of project management tools like Jira to track progress and re-adjust priorities as needed. Staying organized and focused helps me deliver quality work on time, even when faced with competing deadlines.
+
+Follow-up Questions:
+
+How do you handle conflicting deadlines?
+
+What tools do you use for task tracking?
+
+How do you manage burnout?
+
+O. Learning & Growth
+Question: How do you stay updated?
+Follow-up Questions:
+
+Which blogs or YouTube channels do you follow?
+
+What tech topics are you currently learning?
+
+How do you evaluate online learning resources?
+
+Question: Most challenging technical problem?
+Follow-up Questions:
+
+What alternatives did you consider initially?
+
+What was the root cause?
+
+How did you prevent it from happening again?

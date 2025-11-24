@@ -1,0 +1,68 @@
+1) What is your greatest achievement?
+S - “When I was a manager at Cafe X, we would always get a lot more customers than usual during the summer. It would almost always be packed, and sometimes, there were not enough servers to handle the work. And if someone got sick or unexpectedly could not show up - things were only worse.”
+T - “So, I had to come up with a system so that we would not get overwhelmed during those 3+ months.”
+A - “To make sure we were prepared, I realized we needed a better schedule. For the next summer, I had a very strict shift schedule ready, and a reward system in case someone couldn’t show up for their shift. If someone called in sick, whoever filled in for them would be rewarded with extra pay. And if there was absolutely no one else available, I would personally fill in for them instead.”
+R - “Overall, the summer went pretty smoothly with minimal accidents. We didn’t get ANY negative reviews on TripAdvisor for the summer (whereas for the summer before that, we had several for slow service).”
+
+2) How do you set and accomplish personal goals when under pressure? Give me an example.
+S - “Sure! To give you some context, during university, I had very limited financial aid, and my parents couldn’t help co-pay the rest of the tuition. So, while studying, I also had to work to pay for the university. At the same time, I also took up a lot of extracurricular activities (and internships when possible) to get as much professional work experience as possible before graduating.”
+T - “To keep up with the workload, I realized I had to manage my time very efficiently. So, I set up Google Calendar and got a personal notepad for my daily tasks and responsibilities.”
+A - “Through hard work and dedication, I managed to balance studying, a part-time job, and all extracurricular activities. Sure, it was pretty tiring at times, but by the end of each day I would always go over and edit my calendar for the rest of the week. This way, I knew pretty much everything I had to get done daily, and never missed an assignment or a deadline either!”
+R - “In the end, I graduated with a 3.7 GPA, no student loans, and a personal design portfolio which landed me my first real job at Company X within a month of graduating.
+
+3) Have you ever faced conflict or disagreement with a coworker? What happened and how did you resolve it?
+S - “Yep! During my internship at Company X, my team and I were supposed to work together and brainstorm new talent sourcing ideas for a client. The client was a large supermarket chain located in a very rural area, so they were struggling to source new talent. ”
+T - “Basically our task was to meet on a daily basis, brainstorm and finally settle on 3 great ideas. After a couple of meetings, we did have SOME ideas, but none of them were too exceptional. The management wanted something that they could confidently present to the client (that would, for sure, drive results for them).
+Some of my teammates wanted to just give up, say “well, here’s our ideas, we don’t have anything else!” and be done with it. Me and another teammate, however, wanted to work on it a bit more and come up with something that WOULD work.
+There was a LOT of back and forth from there, the tensions were high, and the team kept shutting down all the ideas we were proposing. The deadline was super close, and had to figure out a way to move forward.”
+A - “So, I gave it some thought, and realized that we’d forever be in a deadlock if we continued like this. They wouldn’t agree with our approach, and we wouldn’t agree with theirs. So, we decided to bring in an unbiased third party who didn't have any emotional investment here.
+We then conducted a longer meeting without any time restraints (so we’d get everything done ASAP in a single meeting), where we went through each idea one by one, and the third party acted as a sort of mediator. When someone pitched something, they also had to back it up with as many facts as possible, otherwise it wouldn’t count.”
+R - “This really helped bring in something new to the table. The “mediator” helped sort through all the bad ideas, as well as infusing the team with some new energy.
+We eventually DID end up coming up with completely original ideas, which were also something we all agree upon. We finished the meeting in approx. 2 hours, and the management had 3 awesome ideas they could pitch to the client. The client DID implement one of the ideas, which eventually resulted in 3 new hires.”
+
+4) How do you handle unexpected challenges? Give me an example
+S - “One time, while preparing for a presentation at a conference for Company X, one of our guest speakers had to unexpectedly cancel due to an emergency. We found out only a few hours before the event, and there was now a 1-hour gap in our schedule we had to fix.”
+T - “So, we didn’t have a lot of time, and had to somehow fill up the time slot to keep the event going.”
+A - “As one of the main event organizers and community managers at the company, I decided to take initiative. Instead of the guest speaker, I wanted to present our CEO as the speaker instead - which was definitely a possibility because he was working behind the scenes as well. I personally spent an hour working with him one-on-one, trying to get him to transform his decade’s worth of experience into a presentation. With 30 minutes to spare, everything was ready to go and all that was left was to present.”
+R - “From the one 1 hour gap, the speech lasted about 45 minutes, and for the rest of the 15 minutes we took some questions from the audience. After that, everything continued on track, and most of the audience members loved the presentation.”
+
+5) Have you ever been in a situation when the client was wrong, and you had to correct them? Give me an example.
+S - “Yes, that happens every so often. 
+I can think of one example which happened during my first job as a recruiter. I had sent out a candidate over to a client and the hiring manager had rejected him based on CV alone. They said that the candidate was too junior of a profile for the position, no experience with X, Y and Z.” 
+T - “I went through the resume and my notes several times, and I was 100% sure that this had to have been a mistake on the client’s part - the candidate was an exact match for the job ad they gave me.
+So I had to somehow let them know about it without seeming to be telling them how to do their job.”
+A - “I contacted my candidate, I got exact and thorough information on his experience with X, Y and Z, wrote it all out in an email and obviously with a very calm and professional tone explained to our client’s hiring manager that my candidate did in fact have experience in all areas pointed out, proven by this and that project, etc. And I kindly asked him to review his application.”
+R - “He responded, agreed that the candidate did in fact have the required experience and admitted that it was an error on their end. So, they DID invite the candidate for an interview. Given, he wasn’t chosen for the role, but oh well, at least we gave him a chance.”
+
+6) Tell me about a time you failed. What happened and what did you learn?
+S - “During my last job, I was managing the web dev team in charge of setting up an online e-commerce store for one of our clients. In hindsight, I was too ambitious with the project, and over-promised the turnaround rate for the website. I told them we’d be done within 2 months, as it seemed like a very cookie cutter project at the time. However, around 2 weeks into the project, we realized we were off by at least a month, as we would have to hand-code a bunch of stuff that we thought was open source or sold as packaged plugins.”
+T - “So, I had to inform them about the issue, give an updated deadline for our team, and fix my mistake.”
+A - “After the meeting, they were understanding, but not very happy. I then assembled our web developers and started working hard on the project the very next day. We focused 100% of our time on fixing the issue, outsourced some of the small tasks to save time, and ended up fixing everything before the new deadline.”
+R - “In the end, their site was a success and I learned a valuable lesson on managing expectations. I realized that sometimes it’s better to under-promise and over-deliver, and learned how to better set and manage deadlines for my team.”
+
+7) How do you handle angry customers? Give me an example.
+S - “I always try to be calm and collected. Recently, when I was serving a customer behind the checkout, I had a customer shout at me for not being eligible for a refund. The customer was getting louder and there was a large line starting to form behind him.”
+T - “I had to remain calm, move the conflict somewhere else, and make sure the other customers could go about their purchases.”
+A - “I realized the best thing to do was to move the situation away from the cash register. I asked my colleague to take over for me so that I could talk to the customer one-on-one and better explain the situation. I explained that I could understand his frustration, but I made it clear that sales items were non-refundable, even though he had a receipt.”
+R - “In the end, he began to calm down and accepted my explanation. While he still wasn’t happy about it, I managed to dissolve the situation before he made any more of a scene. I believe that by being calm and empathetic, it’s possible to dissolve most (if not all) such situations.”
+
+8) Can you tell me about a time when you went above and beyond to deliver excellent customer experience?
+S - “When I was working at Company X, we were preparing for a video presentation for a client when I learned that someone on their team was deaf. The presentation was due the next day in the morning and I was the only one left in the office after 5PM.”
+T - “I realized there was only one solution and that was for me to stay behind in the evening and add the captions myself.”
+A - “It took a few hours, and around 8PM, I was done. Then, I let our team know about the update.”
+R - “In the end, the client enjoyed the presentation. They were very impressed (and surprised) by our attention to detail, and we ended up closing them soon after.”
+
+9) Can you give me an example of a goal you set, but couldn’t meet? How did you handle it?
+S - “In my previous job, one month, we decided to focus most of our marketing efforts on growing our blog. I was charged by the CMO to take over the blog and create content. The issue was, I had ZERO experience with content, but we didn’t have anyone else to own the channel.”
+T - “I had to write 5 total articles in that month, create the social media posts for them, and work on promoting them.”
+A - “Halfway through the month, I realized I couldn’t write. At all. It just wasn’t my thing, and I had NOTHING to show for the month’s work. So, here’s what I did: I explained the situation to the CMO, and we came up with an alternative solution. We’d find outsourced content writers on UpWork, and I’d manage them as a content strategist.”
+R - “Overall, we ended up hiring a content writer, who managed to pump out the 4 articles before the deadline. I worked hand-in-hand with them to ensure that their writing was on-brand, and I also created the social posts for them and promoted them. Overall, the articles performed pretty well, even landing us a handful of new leads.”
+
+11) Share an example of a time when you faced a difficult problem at work. How did you solve this problem?
+'I was working as a retail manager at a department store during Diwali. A customer purchased an outfit online and had it delivered to the store. One of my associates accidentally put the outfit on display where another customer immediately purchased it. Before calling the customer to let her know about the mistake, I located the same outfit at another store location nearby. I ordered it to be pressed and delivered to her home on the morning of Diwali along with a gift card to thank her for her understanding. The customer was so thankful that she wrote us a five-star review on several review sites.'
+
+12)Describe a time when you were under a lot of pressure at work. How did you react?
+'In my previous job as an account executive, one of my co-workers quit immediately after signing the biggest client our firm had ever taken on. Although I was already managing a full load of accounts, I was assigned this new client as well. I knew the stakes were high and if we lost this deal then we would not hit our quarterly goal. I made myself completely available to the client and took calls on evenings and weekends until the project was delivered. The client was so impressed with my dedication that they immediately signed an annual contract with our company worth INR 50 lakhs.'
+
+13)Tell me about a mistake you have made. How did you handle it?
+'I was working as an intern for an events company and I was responsible for ordering the floral arrangements for a private event hosted by a high profile client. Unfortunately, I mixed up the information from another event and the flowers were delivered to the wrong venue on the other side of town. I admitted my mistake to my boss, took an early lunch break, drove to the other venue, picked up the flowers and delivered them to the appropriate venue an hour before the event. The client never knew about my mix-up and my boss was very grateful.'
